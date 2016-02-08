@@ -1,0 +1,215 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/color_gray_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="1dp"
+            android:scrollbarThumbVertical="@color/color_header"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:paddingBottom="300dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <ImageView
+                    android:id="@+id/imgvwLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/logo"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_owner_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtOwnerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/owner"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/Owner_Name"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtCompanyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/company"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/Company_Name"
+                        android:inputType="textCapSentences"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/mobile"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/hint_mobile"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/email"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/hint_email"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/password"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/hint_password"
+                        android:inputType="textPassword"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutConPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtConPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/password"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/hint_con_password"
+                        android:inputType="textPassword"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <in.futuretrucks.customviews.CustomAutoCompleteTextView
+                        android:id="@+id/autotextCity"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/city"
+                        android:drawablePadding="25dp"
+                        android:singleLine="true"
+                        android:lines="1"
+                        android:hint="@string/hint_city"
+                        app:edittextfont="@string/font_style"
+                        android:imeOptions="actionDone"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputLayoutPanNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtPanNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/pancard"
+                        android:drawablePadding="25dp"
+                        android:hint="@string/hint_Pan_Card_No"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/chkAcceptTermsCondition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/selector_checkbox"/>
+
+                    <in.futuretrucks.customviews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/accept_condition"
+                        android:textColor="#222222"
+                        android:textSize="@dimen/font_size_16"/>
+
+                </LinearLayout>
+
+                <in.futuretrucks.customviews.CustomButton
+                    android:id="@+id/btnJoinNow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button"
+                    android:text="@string/JOIN_NOW"
+                    android:textColor="@color/color_header"
+                    android:textSize="@dimen/font_size_18"
+                    app:edittextfont="@string/font_style"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/toolbar_header" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT USER TYPE"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layoutHeader"
+        android:layout_marginTop="50dp"
+        android:textSize="@dimen/font_size_24"
+        app:edittextfont="@string/font_style"/>
+
+
+    <RelativeLayout
+        android:id="@+id/layoutRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHeader"
+        android:background="@color/color_white"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:id="@+id/layoutTransporter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbTransporter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/selector_checkbox" />
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Transporter"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutTruckOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTransporter"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbTruckOwner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/selector_checkbox" />
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Truck Owner"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTruckOwner"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbCustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/selector_checkbox" />
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Customer"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutCHA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutCustomer"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbCHA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/selector_checkbox" />
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="CHA"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutShippingline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutCHA"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbShippingline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/selector_checkbox" />
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Shipping line"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <in.futuretrucks.customviews.CustomButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="NEXT"
+        android:layout_below="@+id/layoutRB"
+        android:textColor="@color/color_header"
+        android:background="@drawable/button"
+        app:edittextfont="@string/font_style"/>
+
+</RelativeLayout>

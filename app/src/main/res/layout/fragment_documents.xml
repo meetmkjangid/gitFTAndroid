@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <in.futuretrucks.customviews.CustomButton
+            android:id="@+id/btnUploadProfilePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_header"
+            android:text="@string/profile_image"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_16"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtProfilePicPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnUploadProfilePic"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/font_size_12"/>
+
+        <in.futuretrucks.customviews.CustomButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_header"
+            android:text="SAVE"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_16"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutActionAccountOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_white"
+        android:paddingBottom="15dp"
+        android:visibility="gone">
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/color_header"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Take Photo"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_20"/>
+
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtChooseExisting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTakePhoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_header"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Choose Existing"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_20"/>
+
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtChooseExisting"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/color_header"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Cancel"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_20"/>
+
+    </RelativeLayout>
+</RelativeLayout>

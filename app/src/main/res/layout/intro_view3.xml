@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtSlideTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HIRE_PACKER"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_white"
+        android:layout_marginTop="25dp"
+        app:edittextfont="@string/font_style"
+        android:textSize="@dimen/font_size_22" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtSlideContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HIRE_PACKER_Content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_white"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtSlideTitle"
+        app:edittextfont="@string/font_style"
+        android:textSize="@dimen/font_size_16" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@drawable/final_logo" />
+    </RelativeLayout>
+</RelativeLayout>

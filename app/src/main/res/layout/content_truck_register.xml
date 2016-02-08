@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="in.futuretrucks.TruckRegisterActivity"
+                tools:showIn="@layout/activity_truck_register">
+
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/toolbar_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutHeader"
+        android:scrollbarSize="1dp"
+        android:scrollbarThumbVertical="@color/color_header"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:paddingBottom="300dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_RegistrationNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtRegistrationNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Registration_Number"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_SelectVehicleCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtSelectVehicleCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:focusable="false"
+                    android:hint="Select Vehicle Category"
+                    android:imeOptions="actionNext"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_SelectVehicleSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtSelectVehicleSubCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:focusable="false"
+                    android:hint="Select Vehicle Sub-Category"
+                    android:imeOptions="actionNext"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtModel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Model"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Manufacturer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtManufacturer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:focusable="false"
+                    android:hint="@string/Manufacturer"
+                    android:imeOptions="actionNext"
+                    android:inputType="none"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_MakeYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtMakeYear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Make_Year"
+                    android:imeOptions="actionNext"
+                    android:inputType="none"
+                    android:focusable="false"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Height_in_Feet"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Width"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtWidth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Width_in_Feet"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_CarryingCapacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtCarryingCapacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Carrying_Capacity_in_Tonnes"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtLenght"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Length_in_Feet"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_AxelType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtAxleType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Axel_Type"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_PermitExpiryDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtPermitExpiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:hint="@string/Permit_Expiry_Date"
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/rgBodyType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <in.futuretrucks.customviews.CustomTextView
+                    android:id="@+id/txtBodyType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="25dp"
+                    android:gravity="center_vertical"
+                    android:hint="Body Type"
+                    android:inputType="none"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_size_20"
+                    app:edittextfont="@string/font_style"/>
+
+                <RadioButton
+                    android:id="@+id/rbOpenBodyType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/selector_checkbox"
+                    android:checked="true"
+                    android:drawablePadding="25dp"
+                    android:padding="6dp"
+                    android:text="Open"
+                    android:textColor="@color/color_gray_devider"
+                    android:textSize="@dimen/font_size_18"/>
+
+                <RadioButton
+                    android:id="@+id/rbCloseBodyType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/selector_checkbox"
+                    android:drawablePadding="25dp"
+                    android:padding="6dp"
+                    android:text="Close"
+                    android:textColor="@color/color_gray_devider"
+                    android:textSize="@dimen/font_size_18"/>
+
+            </RadioGroup>
+
+            <RelativeLayout
+                android:id="@+id/layoutPermit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <in.futuretrucks.customviews.CustomTextView
+                    android:id="@+id/txtNationalPermit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:gravity="center_vertical"
+                    android:text="National Permit"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_size_20"
+                    app:edittextfont="@string/font_style"/>
+
+                <CheckBox
+                    android:id="@+id/chkNationalPermit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_DriverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtDriverName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Driver_Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_TruckOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtTruckOwnerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Truck_Owner_Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapWords"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_TruckOwnerMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtTruckOwnerMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Truck_Owner_Mobile"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutRefrigeration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <in.futuretrucks.customviews.CustomTextView
+                    android:id="@+id/txtRefrigeration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="25dp"
+                    android:gravity="center_vertical"
+                    android:text="Refrigeration"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_size_20"
+                    app:edittextfont="@string/font_style"/>
+
+                <CheckBox
+                    android:id="@+id/chkRefrigeration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/chkAcceptTermsCondition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selector_checkbox"/>
+
+                <in.futuretrucks.customviews.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/accept_condition"
+                    android:textColor="#222222"
+                    android:textSize="@dimen/font_size_16"/>
+
+            </LinearLayout>
+
+
+
+            <in.futuretrucks.customviews.CustomButton
+                android:id="@+id/btnRegisterNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:text="@string/REGISTER"
+                android:textColor="@color/color_header"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layoutHeader"
+            layout="@layout/toolbar_header"/>
+
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="@dimen/font_size_18"
+            android:textColor="@color/color_black"
+            android:layout_below="@+id/layoutHeader"
+            app:edittextfont="@string/font_style"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="60dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.futuretrucks.customviews.CustomEditText
+                    android:id="@+id/edtVerificationCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Verification"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    app:edittextfont="@string/font_style"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtResend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="Resend?"
+                android:alpha="0.4"
+                android:enabled="false"
+                android:clickable="false"
+                android:layout_gravity="right"
+                android:textSize="@dimen/font_size_18"
+                android:textColor="@color/color_header_dark"
+                android:layout_below="@+id/input_layout_name"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/color_header_dark"
+                android:text="@string/Submit"
+                app:edittextfont="@string/font_style"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

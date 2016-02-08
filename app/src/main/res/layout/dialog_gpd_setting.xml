@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/rounded_white_bg">
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtGPSEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/GPS_ENABLE"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        app:edittextfont="arial_regular.ttf"
+        android:textSize="@dimen/font_size_18"/>
+
+    <View
+        android:id="@+id/v0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtGPSEnable"
+        android:layout_marginTop="15dp"
+        android:background="@color/color_black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/v0">
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtDontAllow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/Dont_Allow"
+            android:textSize="@dimen/font_size_18"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_black"
+            app:edittextfont="arial_regular.ttf"
+            android:padding="10dp"/>
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/color_black"/>
+
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtAllow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/Allow"
+            android:textSize="@dimen/font_size_18"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/color_black"
+            app:edittextfont="arial_regular.ttf"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

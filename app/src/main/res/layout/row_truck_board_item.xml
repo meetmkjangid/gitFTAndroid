@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_bg"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutIDStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/color_white">
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/color_header"
+            android:textSize="@dimen/font_size_16"
+            app:edittextfont="@string/font_style"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtVerifiedFT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/verify"
+            android:drawablePadding="5dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/color_header"
+            android:textSize="@dimen/font_size_16"
+            app:edittextfont="@string/font_style"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgvwLoadBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutIDStatus"
+        android:background="@drawable/banner"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgvwLoadBoard"
+        android:background="@color/color_white">
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtExpPriceLoadBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/Rupees_symbol"
+            android:textColor="@color/color_header"
+            android:textSize="@dimen/font_size_16"
+            app:edittextfont="@string/font_style"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtBlocked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Blocked"
+            android:visibility="gone"
+            android:textColor="@color/color_red"
+            android:textSize="@dimen/font_size_20"
+            app:edittextfont="@string/font_style"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtPostBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtBlocked"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color_header"
+            android:textSize="@dimen/font_size_18"
+            app:edittextfont="@string/font_style"/>
+
+        <LinearLayout
+            android:id="@+id/layoutSourceDest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPostBy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtSourceLoadBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/black_marker_pin"
+                android:drawablePadding="7dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Pickup"
+                android:textColor="@color/color_header"
+                android:textSize="@dimen/font_size_20"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtDestinationLoadBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/red_marker_pin"
+                android:drawablePadding="7dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Drop Point"
+                android:textColor="@color/color_header"
+                android:textSize="@dimen/font_size_20"
+                app:edittextfont="@string/font_style"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutSourceDest"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtCatapitir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/txtENDTimeLoadBoard"
+                android:drawableLeft="@drawable/matarial"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Catapitir"
+                android:textColor="@color/color_header"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtVehicleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/txtCatapitir"
+                android:drawableLeft="@drawable/truck_modal"
+                android:drawablePadding="5dp"
+                android:textColor="@color/color_header"
+                android:textSize="@dimen/font_size_18"
+                android:visibility="gone"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtENDTimeLoadBoard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@drawable/timer"
+                android:drawablePadding="7dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/color_gray_devider"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp">
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/waight"
+                android:drawablePadding="5dp"
+                android:text="450 KG"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/txtCall"
+                android:textColor="@color/color_header"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/txtSMS"
+                android:background="@drawable/rect_bg_color"
+                android:drawableLeft="@drawable/call"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Call"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/rect_bg_color"
+                android:drawableLeft="@drawable/sms"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="SMS"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_18"
+                app:edittextfont="@string/font_style"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/layout2"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_gray_devider"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/layoutInfo"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

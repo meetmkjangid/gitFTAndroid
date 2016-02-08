@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-4a6b92ff3a61257a33f465181eb3b40e2cf6905c.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.6.0/212387a39088ecd3daff8e3bfc3bdc4123e33c67/okhttp-2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/okhttp-2.6.0-4d7a073cae6a7d67d0699315eeaee968ff453d2c.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-f3871af3ce5f0ec747afc327220c0172f7b3d13f.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-d3a913f7c6607169fd9a5961579c47b187ac77b9.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/okio-1.6.0-f2a57913c763c9fcea6caed6118cbdd87f830388.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-0e23b2b9dd1de600ba8c074626dfd40e3dd98796.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-8cb2a9987423c46af8826e6c8180304516f0f05c.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-0860d8e32d64d9ded9015a2a5db9cc9554fe56ff.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-b03879c9ed4ea7101284a81851cb1649624081b5.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/libs/apache-mime4j-0.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="945007627e8d12275d755081a9e609c018e1210d">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/apache-mime4j-0.6-24281d5b7295ba147c76fe1641a366d15c85f9f9.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.warnyul.android.fast-video-view/fast-video-view/1.0.2/4ab41a140e59ef09aff5a901548051fc16539ddc/fast-video-view-1.0.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4ab41a140e59ef09aff5a901548051fc16539ddc">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/fast-video-view-1.0.2-9f8ed412cd171cdcbd84508345ab3005788370f5.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2-7f2914ac720632c89ca69a4df48eb15f7bb1aa71.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.16/bdc5ca010675cd9385bdd3a28cf53ee88164424f/rxjava-1.0.16.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bdc5ca010675cd9385bdd3a28cf53ee88164424f">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/rxjava-1.0.16-2d0f7b46eb802c6397fae2539804f457a7b74178.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-328844e725b4f65b511af607065eebc5199ca04d.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/libs/httpmime-4.2.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6efc2f9df23c2ac4d3b701a11cab9f9fa6a641d4">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/httpmime-4.2.5-efb25c797b3c8c5305255887845123774d92a4e4.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/libs/gcm.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/gcm-3b59f8306bfa90e7dea427f84f3f147e9992eb72.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-30b0dab4715db9644804e4bc1b184698e062f2c6.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-cc5a0a7a6baf4f74a823eb8c5d33276f90c086de.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/classes-252fc1ecb48eb2566ef7fb81f9a264cf2854d579.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/logging-interceptor/2.6.0/77dc6e1eedd47953b41ef936f20b9b693fe73f6f/logging-interceptor-2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77dc6e1eedd47953b41ef936f20b9b693fe73f6f">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/logging-interceptor-2.6.0-59bfcd0c3f6af439ad844f77337de0061697aea5.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/adapter-rxjava/2.0.0-beta1/27db6ccd014c866500af30d92fbfad0e3cc99ee8/adapter-rxjava-2.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0-beta1-0188f5ada9c5eafe748e44a810ecc188bfafbdce.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/gson-2.3.1-dfb1470f73fa1f78acafce3b5e3eaab7a620259f.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2-e1061371758abc48a749606b3dd9b20f53c2ca78.jar" />
+    </item>
+    <item
+        jar="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/libs/android-query-full.0.26.8.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5ab405d9f4eaf5ddd615967cd35650657b758d40">
+        <dex dex="/Users/mahadev/Desktop/Android Projects Work /Future_Truck_App_Details/Future Truck/app/build/intermediates/pre-dexed/debug/android-query-full.0.26.8-c4aafa7548f531f27049a04dbcea6f9fda974c6f.jar" />
+    </item>
+
+</items>

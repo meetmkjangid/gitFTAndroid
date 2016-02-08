@@ -1,0 +1,251 @@
+<resources>
+    <string name="app_name">Future Trucks</string>
+    <string name="My_Load_Board">My Load Board</string>
+    <string name="My_Truck_Board">My Truck Board</string>
+    <string name="Driver_Not_Added">No driver added by you</string>
+    <string name="Truck_Not_Added">No Truck added by you</string>
+
+    <string name="font_style">NEXA LIGHT.OTF</string>
+    <string name="Font_Nexa_Bold">Nexa Bold.otf</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Drawer Strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Action</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Drivers</item>
+        <item>Trucks</item>
+        <item>Logout</item>
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/profile</item>
+        <item>@drawable/profile_icon</item>
+        <item>@drawable/driver</item>
+        <item>@drawable/trucks</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!--GPS SETTING Strings-->
+    <string name="Location_Service_Disabled">Location Service Disable</string>
+    <string name="GPS_ENABLE">Allow \"Future Trucks\" \n to access your current location while you use the app?</string>
+    <string name="Allow">Allow</string>
+    <string name="Rupees_symbol">\u20B9</string>
+    <string name="Dont_Allow">Don\'t Allow</string>
+
+
+    <!-- Login Views Strings-->
+    <string name="LOGIN">LOGIN</string>
+    <string name="JOIN_NETWORK">JOIN NETWORK</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="JOIN_NOW">JOIN NOW</string>
+    <string name="accept_condition">I accept terms &amp; conditions.</string>
+
+
+    <string name="Sign_In">Sign In</string>
+
+    <string name="Sign_Up">Sign Up</string>
+    <string name="hint_mobile">Mobile No</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_city">City</string>
+    <string name="hint_Pan_Card_No">Pan Card No</string>
+
+    <string name="hint_con_password">Confirm Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="Owner_Name">Owner Name</string>
+    <string name="Company_Name">Company Name</string>
+
+    <!-- Verification View's Strings-->
+    <string name="Verification">Verification</string>
+    <string name="Submit">Submit</string>
+    <string name="Logout">Logout</string>
+
+    <!--Document Uplod Strings-->
+    <string name="Profile_Photo">Profile Photo</string>
+    <string name="Photo_ID_Proof">Photo ID Proof</string>
+    <string name="Pan_Card">Pan Card</string>
+    <string name="Tin_Number_Proof">Tin Number Proof</string>
+    <string name="Service_Tax_Number">Service Tax Number</string>
+    <string name="Company_Logo">Company Logo</string>
+    <string name="Address_Proof_Bilty">Address Proof/Bilty</string>
+
+    <!--Slider Strings Content-->
+    <string name="TRUCK_BOARD">TRUCK BOARD</string>
+    <string name="LOAD_BOARD">LOAD BOARD</string>
+    <string name="HIRE_PACKER">HIRE PACKER\'S AND MOVERS</string>
+    <string name="REAL_TIME_TRACKING">REAL TIME TRACKING</string>
+    <string name="ONLINE_DOCUMENT_MANAGEMENT">ONLINE DOCUMENT MANAGEMENT</string>
+    <string name="SEAMLESS_COMMUNICATION">SEAMLESS COMMUNICATION</string>
+    <string name="PAN_INDIA_NETWORK_OF_RELIABLE_TRANSPORTERS">PAN INDIA NETWORK OF RELIABLE TRANSPORTERS</string>
+
+    <string name="TRUCK_BOARD_Content">Post your truck availability and we will find loads for you</string>
+    <string name="LOAD_BOARD_Content">Post your transportation requirements, and we will find transporter for you</string>
+    <string name="HIRE_PACKER_Content">Shift your luggauge anywhere in india</string>
+    <string name="REAL_TIME_TRACKING_Content">Track your goods and vehicles, get notification and alerts online</string>
+    <string name="ONLINE_DOCUMENT_MANAGEMENT_Content">Verify truck and transport document online before hiring a truck</string>
+    <string name="SEAMLESS_COMMUNICATION_Content">Seamless communication between shipper, transporter and driver to remove any communication gap</string>
+    <string name="PAN_INDIA_NETWORK_OF_RELIABLE_TRANSPORTERS_Content">Find transport service provider anywhere and any time</string>
+    <string name="title_activity_driver_register">DriverRegisterActivity</string>
+
+    <!-- Driver Registration -->
+
+
+    <string name="DRIVER_FIRST_NAME">First Name</string>
+    <string name="DRIVER_LAST_NAME">Last Name</string>
+    <string name="LICENSE_NO">License Number</string>
+    <string name="MOBILE_NO">Mobile</string>
+    <string name="ADDRESS_1">Address Line 1</string>
+    <string name="ADDRESS_2">Address Line 2</string>
+    <string name="AREA">Area</string>
+    <string name="CITY">City</string>
+    <string name="DISTRICT">District</string>
+    <string name="PINCODE">Pincode</string>
+    <string name="REGISTER">Register Now</string>
+    <string name="title_activity_driver_document">DriverDocumentActivity</string>
+    <string name="title_activity_truck_register">TruckRegisterActivity</string>
+    <string name="title_activity_truck_document">TruckDocumentActivity</string>
+
+    <!-- Truck Registration -->
+
+    <string name="Registration_Number">Registration Number</string>
+    <string name="Truck_Owner_Name">Truck Owner Name</string>
+    <string name="Driver_Name">Driver Name</string>
+    <string name="Truck_Owner_Mobile">Truck Owner Mobile</string>
+    <string name="Model">Model</string>
+    <string name="Manufacturer">Manufacturer</string>
+    <string name="Make_Year">Make Year</string>
+    <string name="Height_in_Feet">Height in Feet</string>
+    <string name="Width_in_Feet">Width in Feet</string>
+    <string name="Carrying_Capacity_in_Tonnes">Carrying Capacity in Tonnes</string>
+    <string name="Length_in_Feet">Length in Feet</string>
+    <string name="Axel_Type">Axel Type</string>
+    <string name="Permit_Expiry_Date">Permit Expiry Date</string>
+
+
+    <string name="LICENSE_PLATE_NUMBER">License Plate Number</string>
+    <string name="TRUCK_TYPE">Truck Type</string>
+
+
+    <string name="HEIGHT">Height</string>
+
+    <string name="REFRIGERATION">Refrigeration</string>
+
+    <string name="BODY_TYPE">Body Type</string>
+
+    <string name="AXLE_TYPE">Axle Type</string>
+    <string name="SMS_LANGUAGE"></string>
+    <string name="title_activity_truck_board_maps">Map</string>
+
+
+  <!--  Forgot Password-->
+    <string name="FORGOT_PASSOWRD">FORGOT PASSOWRD</string>
+
+    <!--Profile Fragment Strings-->
+ <string name="YOUR_SERVICES">YOUR SERVICES</string>
+ <string name="Daily_Services_in_City">Daily Services in City</string>
+ <string name="Interesting_Cities">Interesting Cities</string>
+ <string name="Vehicle_Provided">Vehicle Provided</string>
+ <string name="Branch_Office_in_Cities">Branch Office in Cities</string>
+ <string name="Upload_Documents">Upload Documents</string>
+ <string name="COMPLETE_PROFILE_LATER">COMPLETE PROFILE LATER</string>
+
+  <!--  //Strings Heading-->
+    <string name="Interested_City">Interested City</string>
+    <string name="City">City</string>
+    <string name="Pin">Pin</string>
+
+    <!--Vehicle Provided Strings-->
+    <string name="SELECT_WEIGHT">SELECT WEIGHT</string>
+    <string name="SELECT_TRUCK_NO">SELECT NUMBER OF TRUCKS</string>
+    <string name="SELECT_MATERIAL_TYPE">SELECT MATERIAL TYPE</string>
+    <string name="TYPE_OF_TRUCKS">TYPE OF TRUCKS</string>
+    <string name="VEHICLE_TYPES">VEHICLE TYPES</string>
+    <string name="SAVE_AND_NEXT">SAVE AND NEXT</string>
+    <string name="DONE">DONE</string>
+
+    <!--Document Uplod Strings-->
+    <string name="UPLOAD">UPLOAD</string>
+    <string name="DOCUMENTS">DOCUMENTS</string>
+    <!-- User Upload Details -->
+
+    <string name="profile_image">Profile Image</string>
+    <string name="photo_id_proof">Photo Id Proof</string>
+    <string name="pan_card">Pan Card</string>
+    <string name="service_tax">Service Tax Number</string>
+    <string name="address_proof">Address Proof/Bilty</string>
+    <string name="tin_number">Tin Number Proof</string>
+    <string name="company_logo">Company Logo</string>
+
+    <string name="not_Profile_Image">Your Profile Image is uploaded successfully</string>
+    <string name="not_Id_Proof">Your Photo Id Proof is uploaded successfully</string>
+    <string name="not_Pan_card_proof">Your Pan Card is uploaded successfully</string>
+    <string name="not_Service_tax_poof">Your Service Tax number is uploaded successfully</string>
+    <string name="not_Address_proof_Bilty">Your AddressTin_Number_Proof">Tin Number Proof/Bilty is uploaded successfully</string>
+    <string name="not_Tin_number_proof">Your Tin Number Proof is uploaded successfully</string>
+    <string name="not_Company_logo">Your Company Logo is uploaded successfully</string>
+    <!-- Driver upload details -->
+
+    <string name="driver_image">Driver Image</string>
+    <string name="driver_license">Driver License</string>
+    <string name="driver_address_proof">Driver Address Proof</string>
+    <string name="driver_police_verification">Driver Police Verificaton</string>
+
+    <string name="not_driver_image">Driver Photo is uploaded successfully</string>
+    <string name="not_driver_license">Driver License is uploaded successfully</string>
+    <string name="not_driver_address_proof">Address Proof is uploaded successfully</string>
+    <string name="not_driver_police_verification">Police Verification is uploaded successfully</string>
+
+    <!-- Truck upload details-->
+    <string name="vehicle_photo">Vehicle Photo</string>
+    <string name="vehicle_permit">Permit</string>
+    <string name="vehicle_fitness_cert">Fitness Certificate</string>
+    <string name="vehicle_chassis">Chassis Trace</string>
+    <string name="vehicle_insurance">Insurance Copy</string>
+    <string name="vehicle_road_tax">Road Tax</string>
+    <string name="vehicle_Rc_Book">Rc Book</string>
+
+    <string name="not_vehicle_photo">Your Vehicle Photo is uploaded successfully</string>
+    <string name="not_vehicle_permit">Your Permit is uploaded successfully</string>
+    <string name="not_vehicle_fitness_cert">Your Fitness Certificate is uploaded successfully</string>
+    <string name="not_vehicle_chassis_trace">Your Chassis Trace is uploaded successfully</string>
+    <string name="not_vehicle_insurance">Your Insuarance Copy is uploaded successfully</string>
+    <string name="not_vehicle_road_tax">Your Road Tax is uploaded successfully</string>
+
+    <string name="title_activity_display_truck_board">DisplayTruckBoardActivity</string>
+    <string name="title_activity_truck_board">TruckBoardActivity</string>
+    <string name="title_activity_load_board">LoadBoardActivity</string>
+    <string name="title_activity_post_truck">PostTruckActivity</string>
+    <string name="title_activity_post_load">PostLoadActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="item_imageView_contentDescription">item_imageView_contentDescription</string>
+
+
+    <string name="vehicle_rc_book">Vehicle RC Book</string>
+    <string name="not_rcbook">Your RC Book is uploaded successfully</string>
+
+
+    <!--GCM STRINGS-->
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+
+</resources>

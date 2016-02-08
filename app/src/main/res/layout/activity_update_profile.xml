@@ -1,0 +1,194 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layoutHeader"
+            layout="@layout/toolbar_header" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layoutHeader"
+            android:scrollbarSize="1dp"
+            android:scrollbarThumbVertical="@color/color_header"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:paddingBottom="300dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/txtPercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/color_black"
+                    android:textSize="30dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="35dp"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/imgvwProfilePic"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/circular_view_bg_border" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_owner_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtOwnerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/Owner_Name"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_mobile"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_email"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true"
+                        app:edittextfont="@string/font_style" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <in.futuretrucks.customviews.CustomEditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_password"
+                        android:inputType="textPassword"
+                        app:edittextfont="@string/font_style" />
+                </android.support.design.widget.TextInputLayout>
+
+                <in.futuretrucks.customviews.CustomButton
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/color_header_dark"
+                    android:text="@string/Sign_Up"
+                    android:textColor="@android:color/white"
+                    app:edittextfont="@string/font_style" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/layoutActionAccountOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_white"
+            android:paddingBottom="15dp"
+            android:visibility="gone">
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtTakePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/color_header"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Take Photo"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_20"
+                app:edittextfont="MyriadPro-CondIt_0.otf" />
+
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtChooseExisting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTakePhoto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color_header"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Choose Existing"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_20"
+                app:edittextfont="MyriadPro-CondIt_0.otf" />
+
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtChooseExisting"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color_header"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Cancel"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_20"
+                app:edittextfont="MyriadPro-CondIt_0.otf" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_bg"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutProfileInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtUsernameProfileService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/font_size_18"
+            android:layout_toLeftOf="@+id/txtUserTypeProfileService"
+            app:edittextfont="@string/Font_Nexa_Bold"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtUserTypeProfileService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/font_size_18"
+            app:edittextfont="@string/Font_Nexa_Bold"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtEmailProfileService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtUsernameProfileService"
+            android:textSize="@dimen/font_size_18"
+            app:edittextfont="@string/Font_Nexa_Bold"/>
+
+    </RelativeLayout>
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtYourServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutProfileInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/YOUR_SERVICES"
+        android:textSize="@dimen/font_size_24"
+        app:edittextfont="@string/font_style"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnCompleteProfileLater"
+        android:layout_below="@+id/txtYourServices"
+        android:background="@color/color_white"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbarSize="1dp"
+        android:scrollbarThumbVertical="@color/color_header">
+
+
+        <RelativeLayout
+            android:id="@+id/layoutServicesOPtion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtDailyServiceInCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/txtDailyServiceInCityCounter"
+                android:text="@string/Daily_Services_in_City"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtDailyServiceInCityCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <View
+                android:id="@+id/v0"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/txtDailyServiceInCity"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_bg"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtInterestingCities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/txtInterestingCitiesCounter"
+                android:text="@string/Interesting_Cities"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtInterestingCitiesCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/v0"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/txtInterestingCities"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_bg"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtVehicleProvided"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/txtVehicleProvidedCounter"
+                android:text="@string/Vehicle_Provided"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtVehicleProvidedCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/v1"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/txtVehicleProvided"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_bg"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtBranchOfficeInCities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/txtBranchOfficeInCitiesCounter"
+                android:text="@string/Branch_Office_in_Cities"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtBranchOfficeInCitiesCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/v2"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <View
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/txtBranchOfficeInCities"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_bg"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtUploadDocuments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/txtUploadDocumentsCounter"
+                android:text="@string/Upload_Documents"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <in.futuretrucks.customviews.CustomTextView
+                android:id="@+id/txtUploadDocumentsCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/v3"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/font_size_22"
+                app:edittextfont="@string/font_style"/>
+
+            <View
+                android:id="@+id/v4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/txtUploadDocuments"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_gray_bg"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <in.futuretrucks.customviews.CustomButton
+        android:id="@+id/btnCompleteProfileLater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/button"
+        android:text="@string/COMPLETE_PROFILE_LATER"
+        android:textColor="@color/color_header"
+        app:edittextfont="@string/font_style"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="Alert">Alert</string>
+    <string name="check_network">Please check internate connection.</string>
+    <string name="email_blank">Email field can\'t be blank.</string>
+    <string name="f_name_blank">First name field can\'t be blank.</string>
+    <string name="l_name_blank">Last name field can\'t be blank.</string>
+    <string name="Username_blank">Username field can\'t be blank.</string>
+    <string name="mobile_blank">Mobile Number field can\'t be blank.</string>
+    <string name="mobile_invalid">Mobile Number should be 10 digits long.</string>
+    <string name="owner_name_blank">Owner name field can\'t be blank.</string>
+    <string name="email_invalid">Email id is invalid.</string>
+    <string name="password_blank">Password field can\'t be blank.</string>
+    <string name="password_length">Password length should be 5 digits aleast.</string>
+    <string name="password_match">Passwords doesn\'t matched.</string>
+    <string name="Select_City">Please select city.</string>
+    <string name="pan_no">Please enter pan card number.</string>
+
+
+    <string name="verification_blank">Verification code field can\'t be blank.</string>
+    <string name="verification_invalid">Verification code is invalid.</string>
+    <string name="terms_cond">Please check terms &amp; condition.</string>
+    <string name="delete_city_content">Are you sure want to delete city?.</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+
+    <!-- Driver registration -->
+    <string name="license_blank">License Number field can\'t be blank.</string>
+
+    <string name="profile_image_upload_success">Your Profile image has been uploaded successfully</string>
+    <string name="photo_id_upload_success">Your Photo Id Proof has been uploaded successfully</string>
+    <string name="pan_card_upload_success">Your PAN Card has been uploaded successfully</string>
+    <string name="service_tax_upload_success">Your Service tax document has been uploaded successfully</string>
+    <string name="address_proof_upload_success">Your Address Proof has been uploaded successfully</string>
+    <string name="tin_number_upload_success">Your Tin Number Proof has been uploaded successfully</string>
+    <string name="company_Logo_upload_success">Your Company Logo has been uploaded successfully</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar_header"
+        android:id="@+id/include" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtUpdateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/include"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtRegisterDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register New Driver"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/txtUpdateProfile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtRegisterTruck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register New Truck"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/txtRegisterDriver"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtTruckBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truck Board"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/txtRegisterTruck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtLoadBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Board"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/txtTruckBoard"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtPostTruck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truck Post"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/txtLoadBoard"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtPostLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Post"
+        android:textColor="@color/color_white"
+        android:background="@color/color_header"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_20"
+        android:layout_below="@+id/txtPostTruck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

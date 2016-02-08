@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_bg"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/toolbar_header"/>
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtTYPEOFTRUCKS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/TYPE_OF_TRUCKS"
+        android:textSize="@dimen/font_size_24"
+        app:edittextfont="@string/font_style"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerTruckTypesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/txtTYPEOFTRUCKS"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbarSize="1dp"
+        android:layout_above="@+id/btnSaveNext"
+        android:scrollbarThumbVertical="@color/color_header"/>
+
+    <in.futuretrucks.customviews.CustomButton
+        android:id="@+id/btnSaveNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/button"
+        android:text="@string/SAVE_AND_NEXT"
+        android:textColor="@color/color_header"
+        app:edittextfont="@string/font_style"/>
+
+
+</RelativeLayout>

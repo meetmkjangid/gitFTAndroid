@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray_bg"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/layoutHeader"
+        layout="@layout/toolbar_header"/>
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/Interested_City"
+        android:textSize="@dimen/font_size_24"
+        app:edittextfont="@string/font_style"/>
+
+    <LinearLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSubject"
+        android:background="@color/color_white"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/City"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/city_building"
+            android:textSize="@dimen/font_size_20"
+            app:edittextfont="@string/font_style"/>
+
+        <in.futuretrucks.customviews.CustomTextView
+            android:id="@+id/txtPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pin"
+            android:layout_weight="1"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/pin"
+            android:textSize="@dimen/font_size_20"
+            app:edittextfont="@string/font_style"/>
+
+        <ImageView
+            android:id="@+id/imgvwAddCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:src="@drawable/add"/>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerCityList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/layoutTitle"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:scrollbarSize="1dp"
+        android:scrollbarThumbVertical="@color/color_header"
+        android:dividerHeight="10dp"/>
+
+    <in.futuretrucks.customviews.CustomTextView
+        android:id="@+id/txtNoCityData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutTitle"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="@dimen/font_size_20"
+        app:edittextfont="@string/font_style"/>
+
+
+</RelativeLayout>
